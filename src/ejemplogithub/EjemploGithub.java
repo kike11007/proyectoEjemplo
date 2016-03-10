@@ -10,10 +10,15 @@ package ejemplogithub;
  */
 public class EjemploGithub {
 
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Ejemplo de proyecto funcional con git ");
+        Persona alumno;
+        alumno = new Persona("Francisco", "gomez", 25);
+        System.out.println("Mi nombre es" + alumno.getNombre());
+        
     }
 }
